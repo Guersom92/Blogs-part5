@@ -1,0 +1,17 @@
+{
+  "name": "e2e-blog-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {    "test": "playwright test --project chromium",
+    "test:report": "playwright show-report"},
+  "author": "guersom",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.53.0",
+    "@types/node": "^24.0.0"
+  }
+}
